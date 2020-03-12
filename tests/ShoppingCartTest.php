@@ -1,10 +1,10 @@
 <?php
 
-namespace Panda\Cart\Tests;
+namespace Foza\Cart\Tests;
 
 use Illuminate\Support\Collection;
-use Panda\Cart\Coupons\FixedDiscountCoupon;
-use Panda\Cart\Coupons\PercentDiscountCoupon;
+use Foza\Cart\Coupons\FixedDiscountCoupon;
+use Foza\Cart\Coupons\PercentDiscountCoupon;
 use Orchestra\Testbench\TestCase;
 
 class ShoppingCartTest extends TestCase

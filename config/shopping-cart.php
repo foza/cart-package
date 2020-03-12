@@ -12,9 +12,9 @@ return [
     |
     */
 
-    'repository' => \Panda\Cart\Repositories\ShoppingCartDatabaseRepository::class,
+    'repository' => \Foza\Cart\Repositories\ShoppingCartDatabaseRepository::class,
 
-    // 'repository' => \Panda\Cart\Repositories\ShoppingCartRedisRepository::class,
+    // 'repository' => \Foza\Cart\Repositories\ShoppingCartRedisRepository::class,
 
     /*
     |--------------------------------------------------------------------------

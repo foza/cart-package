@@ -1,6 +1,6 @@
 <?php
 
-namespace Melihovv\ShoppingCart\Tests;
+namespace Foza\Cart\Tests;
 
 use Orchestra\Testbench\TestCase;
 

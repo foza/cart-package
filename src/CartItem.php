@@ -1,6 +1,6 @@
 <?php
 
-namespace Panda\Cart;
+namespace Foza\Cart;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Arr;

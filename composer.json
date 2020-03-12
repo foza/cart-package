@@ -1,5 +1,5 @@
 {
-  "name": "panda/cart",
+  "name": "foza/cart",
   "description": "Shopping cart",
   "type": "library",
   "license": "MIT",
@@ -11,12 +11,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Panda\\Cart\\": "src/"
+      "Foza\\Cart\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Panda\\Cart\\Tests\\": "tests"
+      "Foza\\Cart\\Tests\\": "tests"
     }
   },
   "require": {
@@ -38,7 +38,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Panda\\Cart\\ServiceProvider"
+        "Foza\\Cart\\ServiceProvider"
       ]
     }
   },

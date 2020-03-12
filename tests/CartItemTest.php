@@ -1,8 +1,8 @@
 <?php
 
-namespace Panda\Cart\Tests;
+namespace Foza\Cart\Tests;
 
-use Panda\Cart\CartItem;
+use Foza\Cart\CartItem;
 use Orchestra\Testbench\TestCase;
 
 class CartItemTest extends TestCase

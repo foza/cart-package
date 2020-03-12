@@ -1,9 +1,9 @@
 <?php
 
-namespace Panda\Cart\Tests;
+namespace Foza\Cart\Tests;
 
-use Panda\Cart\Coupons\FixedDiscountCoupon;
-use Panda\Cart\Coupons\PercentDiscountCoupon;
+use Foza\Cart\Coupons\FixedDiscountCoupon;
+use Foza\Cart\Coupons\PercentDiscountCoupon;
 
 trait ShoppingCartRepositoryTester
 {

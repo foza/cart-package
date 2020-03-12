@@ -1,11 +1,11 @@
 <?php
 
-namespace Panda\Cart\Tests;
+namespace Foza\Cart\Tests;
 
 use Illuminate\Support\Collection;
-use Panda\Cart\CartItem;
-use Panda\Cart\Facades\ShoppingCart;
-use Panda\Cart\ServiceProvider;
+use Foza\Cart\CartItem;
+use Foza\Cart\Facades\ShoppingCart;
+use Foza\Cart\ServiceProvider;
 
 trait ShoppingCartTester
 {

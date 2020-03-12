@@ -1,10 +1,10 @@
 <?php
 
-namespace Panda\Cart;
+namespace Foza\Cart;
 
 use Illuminate\Support\Collection;
-use Panda\Cart\Coupons\Coupon;
-use Panda\Cart\Repositories\ShoppingCartRepositoryInterface;
+use Foza\Cart\Coupons\Coupon;
+use Foza\Cart\Repositories\ShoppingCartRepositoryInterface;
 
 class ShoppingCart
 {

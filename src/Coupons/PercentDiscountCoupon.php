@@ -1,6 +1,6 @@
 <?php
 
-namespace Panda\Cart\Coupons;
+namespace Foza\Cart\Coupons;
 
 class PercentDiscountCoupon extends Coupon
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Panda\Cart\Repositories;
+namespace Foza\Cart\Repositories;
 
 use Illuminate\Database\DatabaseManager;
 use stdClass;

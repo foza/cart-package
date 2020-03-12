@@ -1,6 +1,6 @@
 <?php
 
-namespace Panda\Cart\Facades;
+namespace Foza\Cart\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

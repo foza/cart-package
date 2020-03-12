@@ -1,9 +1,9 @@
 <?php
 
-namespace Melihovv\ShoppingCart\Tests;
+namespace Foza\Cart\Tests;
 
 use Illuminate\Support\Facades\Redis;
-use Panda\Cart\Repositories\ShoppingCartRedisRepository;
+use Foza\Cart\Repositories\ShoppingCartRedisRepository;
 use Orchestra\Testbench\TestCase;
 
 class ShoppingCartRedisTest extends TestCase

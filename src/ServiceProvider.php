@@ -1,6 +1,6 @@
 <?php
 
-namespace Panda\Cart;
+namespace Foza\Cart;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
