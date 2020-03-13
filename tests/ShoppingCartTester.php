@@ -22,10 +22,11 @@ trait ShoppingCartTester
     }
 
     /**
-     * @param int    $id
+     * @param int $id
      * @param string $name
-     * @param int    $price
-     * @param int    $quantity
+     * @param int $price
+     * @param int $type
+     * @param int $quantity
      *
      * @return CartItem
      */
@@ -33,9 +34,11 @@ trait ShoppingCartTester
         $id = 1,
         $name = 'iPhone 7',
         $price = 100,
+        $type = 2,
         $quantity = 10
-    ) {
-        return \Cart::add($id, $name, $price, $quantity);
+    )
+    {
+        return \Cart::add($id, $name, $price, $type, $quantity);
     }
 
     /**

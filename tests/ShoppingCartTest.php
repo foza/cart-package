@@ -33,7 +33,7 @@ class ShoppingCartTest extends TestCase
 
     public function testUpdateQuantity()
     {
-        $cartItem = $this->addItemToCart(1, 'iPhone 7', 100, 5);
+        $cartItem = $this->addItemToCart(1, 'iPhone 7', 100, 5,10);
         \Cart::setQuantity($cartItem->getUniqueId(), 10);
 
         $this->assertEquals(10, \Cart::get($cartItem->getUniqueId())->quantity);

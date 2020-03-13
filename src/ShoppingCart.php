@@ -64,16 +64,17 @@ class ShoppingCart
      * quantity.
      *
      * @param string|int $id
-     * @param string     $name
-     * @param int|float  $price
-     * @param int        $quantity
-     * @param array      $options
+     * @param string $name
+     * @param int|float $price
+     * @param int $quantity
+     * @param int $type
+     * @param array $options
      *
      * @return CartItem
      */
-    public function add($id, $name, $price, $quantity, $options = [])
+    public function add($id, $name, $price, $type, $quantity, $options = [])
     {
-        $cartItem = new CartItem($id, $name, $price, $quantity, $options);
+        $cartItem = new CartItem($id, $name, $price, $type, $quantity, $options);
         $uniqueId = $cartItem->getUniqueId();
 
         if ($this->content->has($uniqueId)) {

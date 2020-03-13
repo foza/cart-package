@@ -9,7 +9,7 @@ class CartItemTest extends TestCase
 {
     public function testTotal()
     {
-        $cartItem = new CartItem(1, 'iPhone', 100, 10);
+        $cartItem = new CartItem(1, 'iPhone', 100,2,5 );
 
         $this->assertEquals($cartItem->getTotal(), 1000);
     }
